@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYBLOG_MENU_BLOGGER_LAYOUT">
+		<message>
+			<![CDATA[COM_EASYBLOG_MENU_BLOGGER_LAYOUT_DESC]]>
+		</message>
+		<view>blogger</view>
+	</layout>
+
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_easyblog/elements">
+			<field name="id" type="authors" label="COM_EASYBLOG_MENU_AUTHOR" description="COM_EASYBLOG_MENU_AUTHOR_DESC" required="true" />
+		</fieldset>
+	</fields>
+
+    <fields name="params">
+    	<fieldset name="author" label="COM_EASYBLOG_MENU_AUTHOR_OPTIONS">
+			<field name="author_header" type="radio" default="1" class="btn-group" label="COM_EASYBLOG_SHOW_AUTHOR_HEADER" description="COM_EASYBLOG_SHOW_AUTHOR_HEADER_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="author_avatar" type="radio" default="1" class="btn-group" label="COM_EASYBLOG_SHOW_AUTHOR_AVATAR" description="COM_EASYBLOG_SHOW_AUTHOR_AVATAR_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="author_name" type="radio" default="1" class="btn-group" label="COM_EASYBLOG_SHOW_AUTHOR_NAME" description="COM_EASYBLOG_SHOW_AUTHOR_NAME_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="author_bio" type="radio" default="1" class="btn-group" label="COM_EASYBLOG_SHOW_AUTHOR_BIO" description="COM_EASYBLOG_SHOW_AUTHOR_BIO_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="author_twitter" type="radio" default="1" class="btn-group" label="COM_EASYBLOG_SHOW_AUTHOR_TWITTER" description="COM_EASYBLOG_SHOW_AUTHOR_TWITTER_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="author_website" type="radio" default="1" class="btn-group" label="COM_EASYBLOG_SHOW_AUTHOR_WEBSITE" description="COM_EASYBLOG_SHOW_AUTHOR_WEBSITE_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+    	</fieldset>
+
+		<fieldset name="request" addfieldpath="/administrator/components/com_easyblog/elements">
+			<field name="standalone_blog" type="radio" default="0" class="btn-group" label="COM_EASYBLOG_MENU_STANDALONE_AUTHOR_MODE" description="COM_EASYBLOG_MENU_STANDALONE_AUTHOR_MODE_DESC" >
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+			<field type="pagination" name="limit" default="-2" label="COM_EASYBLOG_ITEMS_PER_PAGE" description="COM_EASYBLOG_ITEMS_PER_PAGE_DESC" />
+			<field name="exclusion" type="multicategoriesparent" label="COM_EASYBLOG_MENU_EXCLUDE_SELECT_CATEGORIES" description="COM_EASYBLOG_MENU_EXCLUDE_SELECT_CATEGORIES_DESC" />
+		</fieldset>
+    </fields>
+</metadata>

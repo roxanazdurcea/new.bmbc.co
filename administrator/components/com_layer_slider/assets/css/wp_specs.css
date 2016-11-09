@@ -1,0 +1,318 @@
+/*HIDING BAR*/
+.com_layer_slider.view-slider .subhead-collapse,
+.com_layer_slider.view-sliders .subhead-collapse,
+.com_layer_slider.view-skineditor .subhead-collapse,
+.com_layer_slider.view-transitionbuilder .subhead-collapse,
+.com_layer_slider.view-customstyleseditor .subhead-collapse{
+  display:none;
+} 
+
+.ui-draggable {
+  cursor: move !important;
+}
+.ls-colorpicker {
+  padding-left: 30px !important;
+}
+
+.com_layer_slider header{
+  display:none;
+}
+
+input.current-page{
+  width: auto;
+}
+
+.ls-font-list li{
+  display:block;
+  margin-bottom:6px;
+}
+
+.wrap .add-new-h2, .wrap .add-new-h2:active {
+    background: none repeat scroll 0 0 #E0E0E0;
+}
+
+.wrap .add-new-h2, .wrap .add-new-h2:active {
+    border: 0 none;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 4px;
+    padding: 4px 8px;
+    position: relative;
+    text-decoration: none;
+    text-shadow: none;
+    top: -3px;
+}
+ a.add-new-h2, #the-comment-list p.comment-author strong a, #media-upload a.del-link, #media-items a.delete, #media-items a.delete-permanently, .plugins a.delete, .ui-tabs-nav a, .plugins .inactive a {
+    color: #0074A2;
+    transition-duration: 0.05s;
+    transition-property: border, background, color;
+    transition-timing-function: ease-in-out;
+}
+
+ .wrap .add-new-h2:hover {
+    background: none repeat scroll 0 0 #2EA2CC;
+    color: #FFFFFF;
+}
+
+
+.button, .button-secondary {
+    background: none repeat scroll 0 0 #F7F7F7;
+    border-color: #CCCCCC;
+    box-shadow: 0 1px 0 #FFFFFF inset, 0 1px 0 rgba(0, 0, 0, 0.08);
+    color: #555555;
+    vertical-align: top;
+}
+
+ .button,  .button-primary, .button-secondary {
+    -moz-box-sizing: border-box;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    height: 28px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0 10px 1px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+#content input,#content select, #content textarea, .uneditable-input{
+/*  width: auto;*/
+  padding-left:4px;
+  padding-right:4px;
+  margin-bottom: 0;
+  height: auto;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+#ls-pages .ui-widget-content{
+  border: none;
+}
+
+.ls-settings-sidebar li{
+  display: block;
+}
+
+#ls-pages .thumbnails{
+  margin-left: 10px;
+}
+
+#ls-list-page form{
+  margin: 0;
+}
+
+#ls-list-page form.ls-box{
+  margin-top: 15px;
+}
+
+.button.button-hero, .button-group.button-hero .button {
+    font-size: 14px;
+    height: 46px;
+    line-height: 44px;
+    padding: 0 36px;
+}
+.button-primary {
+    background: none repeat scroll 0 0 #2EA2CC;
+    border-color: #0074A2;
+    box-shadow: 0 1px 0 rgba(120, 200, 230, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+div.ls-image a.modal{
+  display:block;
+}
+
+div.ls-image.hover a.modal {
+    background: none;
+    border-radius: 0px;
+    box-shadow: none;
+    display: block;
+    height: auto;
+    position: relative;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: auto;
+}
+
+#ls-tr-builder-form .header.medium p{
+  margin-top:-1px;
+}
+
+#ls-tr-builder-form input{
+  margin-top: 0;
+}
+
+#ls-tr-builder-form label{
+  margin-bottom: 0;
+
+}
+
+
+.tablenav .tablenav-pages a.disabled, .tablenav .tablenav-pages a.disabled:hover, .tablenav .tablenav-pages a.disabled:focus {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
+    color: #AAAAAA;
+}
+.tablenav .tablenav-pages a {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
+}
+
+.tablenav .tablenav-pages a {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 10px 3px;
+}
+.tablenav .tablenav-pages a, .tablenav-pages span.current {
+    padding: 3px 6px;
+    text-decoration: none;
+}
+.tablenav-pages .next-page {
+    margin-left: 2px;
+}
+
+
+.com_layer_slider.view-sliders .pagination-links{
+  display:none;
+}
+
+#content input#title{
+  height:38px;
+  font-size: 22px;
+}
+
+a.create_module_tag,
+a.module_tag{
+  font-size: 10px;
+  background-color: #abc34a;
+  border-radius:3px;
+  color: #FFFFFF;
+  padding: 2px 5px;
+  margin: 0 3px 3px 0;
+  display: inline-block;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+a.module_tag.unpublished{
+  background-color: #c34a53;
+}
+
+a.create_module_tag{
+  background-color: #2EA2CC;
+  font-size: 11px;
+}
+
+a.create_module_tag:hover,
+a.module_tag:hover{
+  text-decoration: none;
+  background-color: #bdd16d;
+  color: #FFFFFF;
+}
+
+a.create_module_tag:hover{
+  background-color: #45b8e2;
+}
+
+a.module_tag.unpublished:hover{
+  background-color: #dc5d66;
+}
+
+
+/*OFFLAJN DASHBOARD*/
+
+.panel.dashboard .pane-slider{
+  height: 100%;
+}
+
+.panel.dashboard .column{
+  float: left;
+  width: 33.333%;
+  overflow:hidden;
+}
+
+.panel.dashboard .dashboard-box{
+  width:100%;
+}
+
+.panel.dashboard .dashboard-box .box-title{
+  height:30px;
+  border-left: 5px solid #ededed;
+  padding-left: 5px;
+  background-color: #f4f4f4;
+  font-family: 'Cabin', sans-serif;
+  font-size: 14px;
+  color:#2577ad;
+  line-height:30px;  
+  text-transform:uppercase;
+  overflow: hidden;
+}
+
+.panel.dashboard .dashboard-box{
+  border: 1px solid #cccccc;
+  border-top:0;
+}
+
+.panel.dashboard .left .dashboard-box{
+  border-left:0;
+  border-bottom:0;
+}
+
+#related-news-iframe{
+  height: 200px;
+}
+
+.panel.dashboard .mid .dashboard-box{
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.panel.dashboard .dashboard-box .box-content{
+  border-top: 1px solid #cccccc;
+  background-color: #FFFFFF;
+}
+
+.panel.dashboard .dashboard-box .box-content .content-inner{
+  padding: 7px;
+  border-left: 5px solid #ededed;
+  min-height: 77px;
+  color: #393939;
+}
+
+.panel.dashboard .dashboard-box .box-content .content-inner .support-ticket-button{
+  float: right;
+  height: 21px;
+  width: 110px;
+  margin: 12px 5px 2px 5px;
+}
+
+.panel.dashboard .dashboard-box .box-content .content-inner .support-ticket-button a{
+  height: 21px;
+  width: 110px;
+  display: block;
+}
+
+.panel.dashboard .dashboard-box .box-content .content-inner .support-us-button{
+  float: right;
+  height: 21px;
+  width: 88px;
+  margin: 12px 5px 2px 5px;
+}
+
+.panel.dashboard .dashboard-box .box-content .content-inner .support-us-button a{
+  height: 21px;
+  width: 88px;
+  display: block;
+}
+
+.panel.dashboard div{
+  font-size: 11px;
+  line-height: 15px;
+}
+
+

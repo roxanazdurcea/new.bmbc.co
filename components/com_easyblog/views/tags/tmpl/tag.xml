@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYBLOG_MENU_TAG_LAYOUT">
+		<message>
+			<![CDATA[COM_EASYBLOG_MENU_TAG_LAYOUT_DESC]]>
+		</message>
+		<view>tags</view>
+	</layout>
+
+	<fields name="params">
+		<fieldset name="tags" label="COM_EASYBLOG_MENU_TAG_OPTIONS">
+			<field name="tag_title" type="radio" default="1" class="btn-group" label="COM_EASYBLOG_SHOW_TAG_TITLE" description="COM_EASYBLOG_SHOW_TAG_TITLE_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="tag_subscribe_rss" type="radio" default="1" class="btn-group" label="COM_EASYBLOG_SHOW_RSS" description="COM_EASYBLOG_SHOW_RSS_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+		</fieldset>
+	</fields>
+	
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_easyblog/elements">
+			<field name="id" type="tags" label="COM_EASYBLOG_MENU_SELECT_TAG" required="true" description="COM_EASYBLOG_MENU_SELECT_TAG_DESC" />
+			<field type="pagination" name="limit" default="-2" label="COM_EASYBLOG_ITEMS_PER_PAGE" description="COM_EASYBLOG_ITEMS_PER_PAGE_DESC" />
+		</fieldset>
+	</fields>
+	
+</metadata>
