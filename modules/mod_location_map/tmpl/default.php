@@ -45,7 +45,7 @@
          center: new google.maps.LatLng(<?php echo $params->get('latitude'); ?>, <?php echo $params->get('longitude'); ?>),
          <?php if ($params->get('menu_map') == 0) echo "mapTypeControl: false,";?>
          <?php if ($params->get('control_map') == 0) echo "zoomControl: false, panControl: false, streetViewControl: false, scrollwheel: false, draggable: true,";?>
-         mapTypeId: google.maps.MapTypeId.Grayscale
+         mapTypeId: google.maps.MapTypeId.Greyscale
        };
        var os_loc_map = new google.maps.Map(document.getElementById("os_loc_map_canvas<?php echo $pr; ?>"), os_loc_options);
 
@@ -101,6 +101,5 @@
         "width: <?php echo $params->get('map_width');?>px; height: <?php echo $params->get('map_height'); ?>px;
          float: rigth;" >
     </div>
-  <br>
-  <!-- <div style="text-align: center;"><a href="http://ordasoft.com" style="font-size: 10px;">Powered by OrdaSoft!</a></div> -->
+<!--  <div style="text-align: center;"><a href="http://ordasoft.com" style="font-size: 10px;">Powered by OrdaSoft!</a></div>-->
 

@@ -44,7 +44,7 @@ body.site {
 
 .breadcrumb {
     padding: 18px 15px !important;
-    margin-bottom: 10px !important;
+    margin-bottom: 0px !important;
     list-style: none;
     background-color: #f7f7f7 !important;
     border-radius: 4px;
@@ -120,13 +120,12 @@ textarea {
 }
 
 input.submit {
-    font-size: 1vw !important;
+    font-size: 0.7vw !important;
     line-height: 2vw !important;
     font-family: 'Questrial', sans-serif;
     color: #000 !important;
     text-decoration: none !important;
     text-shadow: none !important;
-    text-transform: uppercase !important;
     margin: 1% 2% 1% 0px !important;
     border-color: #f18720 !important;
     width: 40%;
@@ -178,6 +177,7 @@ input.submit {
 /* my styling*/
 .social-place {
     float: right;
+    margin-left: 5px;
 }
 
 input.search-query {
@@ -247,7 +247,7 @@ p {
 }
 
 .home-block {
-    border: 2px solid #222222;
+    border: 1px solid #222222;
     padding: 3vw;
 }
 
@@ -382,6 +382,7 @@ hr {
     -webkit-border-radius: 0px; /*Safari, Chrome*/
     border-radius: 0px;
     background-color: #fff;
+    margin-bottom: 10px;
 }
 
 .accordion-heading {
@@ -414,7 +415,10 @@ hr {
 
 .accordion-inner {
     border-color: #ddd;
+}
 
+.accordion-inner a {
+font-family: 'Raleway', sans-serif;
 }
 
 /* end of accordion */
@@ -597,6 +601,13 @@ a.sidr-class-toggle-sidr-close:before {
     .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
         width: 1170px;
     }
+
+    #xmap ul li {
+        font-size: 0.9vw;
+        line-height: 1.2vw;
+        font-family: 'Raleway', sans-serif;
+    }
+
 }
 
 @media screen and (max-width: 720px) {
@@ -684,11 +695,6 @@ a.sidr-class-toggle-sidr-close:before {
         font-weight: 400 !important;
     }
 
-    .accordion-heading h3 {
-        margin-bottom: 0px !important;
-        font-size: 1.5vw !important;
-    }
-
     #gruemenu.grue_92 ul ul li a, #navigation-toggle {
         background: transparent !important;
     }
@@ -697,17 +703,12 @@ a.sidr-class-toggle-sidr-close:before {
         font-size: 1vw !important;
     }
 
-    /*footer p {*/
-    /*font-size: 1.2vw !important;*/
-    /*}*/
     footer a {
         font-size: 1.2vw !important;
     }
-
-    /*footer h4 {*/
-    /*font-size: 1.8vw !important;*/
-    /*line-height: 2vw !important;*/
-    /*}*/
+    .accordion-inner a {
+        font-size: 1.2vw;
+    }
     input.submit {
         font-size: 1.5vw !important;
         line-height: 3.5vw !important;
@@ -767,6 +768,10 @@ a.sidr-class-toggle-sidr-close:before {
         line-height: 1.5vw !important;
     }
 
+    .home-block {
+        margin-top: 5px;
+    }
+
     .home-block h4 {
         font-size: 1.2vw !important;
         line-height: 1.5vw !important;
@@ -787,6 +792,18 @@ a.sidr-class-toggle-sidr-close:before {
 
     footer a {
         font-size: 1.4vw !important;
+    }
+
+    .accordion-inner a {
+        font-size: 1.4vw;
+        line-height: 1.8vw;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+    }
+
+    .accordion-heading h3 {
+        margin-bottom: 0px !important;
+        font-size: 1.5vw !important;
     }
 
     /*footer h4 {*/
@@ -855,6 +872,9 @@ a.sidr-class-toggle-sidr-close:before {
         font-size: 2.1vw;
     }
 
+    .accordion-inner a {
+        font-size: 2.5vw;
+    }
     .home-block {
         margin-top: 5px;
     }
@@ -881,6 +901,25 @@ a.sidr-class-toggle-sidr-close:before {
     .tabs-left > .nav-tabs > li > a {
         font-size: 2.8vw !important;
     }
-}
 
+    #layerslider_1 h1 {
+        font-size: 2.2vw !important;
+        line-height: 2.5vw !important;
+        margin-top: 10px;
+    }
+
+    #layerslider_1 p {
+        font-size: 1.9vw !important;
+        line-height: 2.3vw !important;
+    }
+
+    #layerslider_1 .ls-l {
+        margin-right: 20%;
+    }
+}
+/*@media (min-width: 769px) and (max-width: 991px) {*/
+    /*p {*/
+        /*font-size: 2.2vw !important;*/
+    /*}*/
+/*}*/
 /* end of media queries */
