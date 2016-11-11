@@ -199,7 +199,7 @@ $doc->addCustomTag('<!--[if lt IE 9]><script src="http://html5shim.googlecode.co
 <a href="#sidr-main" id="navigation-toggle" class="navigation-toggle-<?php echo $module->id ?>"><span class="nav-line"></span><span class="nav-line"></span><span class="nav-line"></span></a>
 <div id="sidr-close"><a href="#sidr-close" class="toggle-sidr-close"></a></div>
 <?php } ?>
-<div id="gruemenu" class="grue_<?php echo $module->id ?> <?php echo $class_sfx;?>">
+<div id="gruemenu" class="grue_<?php echo $module->id ?> <?php echo $class_sfx;?> pull-right">
 <ul <?php
 	$tag = '';
 	if ($params->get('tag_id')!=NULL) {

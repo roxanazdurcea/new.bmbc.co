@@ -120,7 +120,7 @@ else
 					<a class="brand pull-left" href="<?php echo $this->baseurl; ?>/">
 						<?php echo $logo; ?>
 					</a>
-					<div class="header-search pull-right">
+					<div class="header-search">
 						<?php // Display position-0 modules ?>
 						<?php echo $doc->getBuffer('modules', 'position-0', array('style' => 'none')); ?>
 					</div>

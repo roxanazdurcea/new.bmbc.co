@@ -44,8 +44,8 @@
          zoom: <?php echo $params->get('zoom'); ?>,
          center: new google.maps.LatLng(<?php echo $params->get('latitude'); ?>, <?php echo $params->get('longitude'); ?>),
          <?php if ($params->get('menu_map') == 0) echo "mapTypeControl: false,";?>
-         <?php if ($params->get('control_map') == 0) echo "zoomControl: false, panControl: false, streetViewControl: false,";?>
-         mapTypeId: google.maps.MapTypeId.HYBRID
+         <?php if ($params->get('control_map') == 0) echo "zoomControl: false, panControl: false, streetViewControl: false, scrollwheel: false, draggable: true,";?>
+         mapTypeId: google.maps.MapTypeId.Grayscale
        };
        var os_loc_map = new google.maps.Map(document.getElementById("os_loc_map_canvas<?php echo $pr; ?>"), os_loc_options);
 
@@ -99,8 +99,8 @@
 
     <div id="os_loc_map_canvas<?php echo $pr; ?>" style=
         "width: <?php echo $params->get('map_width');?>px; height: <?php echo $params->get('map_height'); ?>px;
-        border: 1px solid black; float: rigth;" >
+         float: rigth;" >
     </div>
   <br>
-  <div style="text-align: center;"><a href="http://ordasoft.com" style="font-size: 10px;">Powered by OrdaSoft!</a></div>
+  <!-- <div style="text-align: center;"><a href="http://ordasoft.com" style="font-size: 10px;">Powered by OrdaSoft!</a></div> -->
 

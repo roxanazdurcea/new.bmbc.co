@@ -10,7 +10,7 @@ jQuery(document).ready(function () {
 
 //accordion
     var myGroup = jQuery('#accordion2');
-        myGroup.on('show.bs.collapse', '.collapse', function () {
+    myGroup.on('show.bs.collapse', '.collapse', function () {
         myGroup.find('.collapse.in').collapse('hide');
     });
 //end of accordion
@@ -55,44 +55,35 @@ jQuery(document).ready(function () {
     // end of slick slider
 
 
-    // resize blocks
-    function marketingHeight() {
-        jQuery('.marketingHeight').css('min-height', jQuery('.marketing').height());
-    }
-
-    function marketHeight() {
-        jQuery('.marketHeight').css('min-height', jQuery('.market').height());
-    }
-
-    function strategyHeight() {
-        jQuery('.strategyHeight').css('min-height', jQuery('.strategy').height());
-    }
-
-    function crmHeight() {
-        jQuery(".crmHeight").css('min-height', jQuery('.crm').height());
-    }
-
-    // onDocumentReady function bind
-    jQuery(document).ready(function () {
-        marketingHeight();
-        marketHeight();
-        strategyHeight();
-        crmHeight();
-    });
-    // onResize bind of the function
-    jQuery(window).resize(function () {
-        marketingHeight();
-        marketHeight();
-        strategyHeight();
-        crmHeight();
-    });
-    // end of resize blocks
 
 
-
-
-
+    jQuery('#gruemenu').removeClass('pull-left');
 
 
 
 });
+
+
+
+
+// resize blocks
+function marketingHeight() {
+    jQuery('.marketingHeight').css('min-height', jQuery('.marketing').height());
+}
+
+function marketHeight() {
+    jQuery('.marketHeight').css('min-height', jQuery('.market').height());
+}
+
+
+// onDocumentReady function bind
+jQuery(document).ready(function () {
+    marketingHeight();
+    marketHeight();
+});
+// onResize bind of the function
+jQuery(window).resize(function () {
+    marketingHeight();
+    marketHeight();
+});
+// end of resize blocks
