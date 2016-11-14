@@ -52,6 +52,8 @@ body.site {
     border-bottom: 1px solid #d6d6d6;
 }
 
+
+
 /*** text selection ***/
 ::selection {
     background-color: #ffd4c7;
@@ -145,7 +147,7 @@ input.submit {
 .free-quote {
     position: fixed;
     right: 0;
-    top: 20%;
+    top: 30%;
     -webkit-transform: rotate(-90deg) translate3d(50%, 0, 0);
     transform: rotate(-90deg) translate3d(50%, 0, 0);
     -webkit-transform-origin: bottom right;
@@ -318,8 +320,8 @@ p {
 
 hr {
     border-top: 1px solid #3e3e3e !important;
-    margin-top: 0.8vw !important;
-    margin-bottom: 0.8vw !important;
+    margin-top: 0.7vw !important;
+    margin-bottom: 0.7vw !important;
 }
 
 .light-blue {
@@ -350,6 +352,7 @@ hr {
 
 .light-grey-box {
     background-color: #fafafa;
+    /*background-color: grey;*/
 }
 
 .light-grey-box div {

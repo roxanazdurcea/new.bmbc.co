@@ -70,12 +70,9 @@ jQuery(document).ready(function () {
 function marketingHeight() {
     jQuery('.marketingHeight').css('min-height', jQuery('.marketing').height());
 }
-
 function marketHeight() {
     jQuery('.marketHeight').css('min-height', jQuery('.market').height());
 }
-
-
 // onDocumentReady function bind
 jQuery(document).ready(function () {
     marketingHeight();
@@ -87,3 +84,11 @@ jQuery(window).resize(function () {
     marketHeight();
 });
 // end of resize blocks
+$( ".market" ).load(function() {
+    marketingHeight();
+    marketHeight();
+});
+$( ".marketing" ).load(function() {
+    marketingHeight();
+    marketHeight();
+});

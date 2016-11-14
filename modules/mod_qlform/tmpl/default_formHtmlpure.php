@@ -50,7 +50,7 @@ defined('_JEXEC') or die;
                           required="required" aria-required="true" aria-invalid="true"></textarea></dd>
 
                 <dt class="submit"></dt>
-                <dd class="submit"><input class="submit" type="submit" value="Submit"></dd>
+                <dd class="submit"><input style="margin-right: 0px !important;" class="submit pull-right" type="submit" value="Submit"></dd>
 
                 </div>
         </dl>
