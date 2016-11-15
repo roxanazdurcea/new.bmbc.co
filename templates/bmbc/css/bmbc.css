@@ -52,8 +52,6 @@ body.site {
     border-bottom: 1px solid #d6d6d6;
 }
 
-
-
 /*** text selection ***/
 ::selection {
     background-color: #ffd4c7;
@@ -242,6 +240,12 @@ h4 span {
     line-height: 1.2vw !important;
 }
 
+.copy-text {
+    font-weight: 400 !important;
+    font-size: 0.8vw !important;
+    line-height: 1.2vw !important;
+}
+
 p {
     font-family: 'Raleway', sans-serif;
     color: #0b0b0b;
@@ -421,7 +425,7 @@ hr {
 }
 
 .accordion-inner a {
-font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* end of accordion */
@@ -682,6 +686,11 @@ a.sidr-class-toggle-sidr-close:before {
         line-height: 2vw !important;
     }
 
+    .copy-text {
+        font-size: 1.5vw !important;
+        line-height: 1.9vw !important;
+    }
+
     h1, h2, h3, h4, h5, h6 {
         margin-top: 0px !important;
         margin-bottom: 10px !important;
@@ -709,9 +718,11 @@ a.sidr-class-toggle-sidr-close:before {
     footer a {
         font-size: 1.2vw !important;
     }
+
     .accordion-inner a {
         font-size: 1.2vw;
     }
+
     input.submit {
         font-size: 1.5vw !important;
         line-height: 3.5vw !important;
@@ -766,6 +777,11 @@ a.sidr-class-toggle-sidr-close:before {
         line-height: 2vw !important;
     }
 
+    .copy-text {
+        font-size: 1.8vw !important;
+        line-height: 2vw !important;
+    }
+
     .itsolutions h3 {
         font-size: 1.2vw !important;
         line-height: 1.5vw !important;
@@ -808,7 +824,9 @@ a.sidr-class-toggle-sidr-close:before {
         margin-bottom: 0px !important;
         font-size: 1.5vw !important;
     }
-
+    .sitemap-class{
+        zoom:80%;
+    }
     /*footer h4 {*/
     /*font-size: 1.8vw !important;*/
     /*line-height: 2vw !important;*/
@@ -855,6 +873,11 @@ a.sidr-class-toggle-sidr-close:before {
         line-height: 2.7vw !important;
     }
 
+    .copy-text {
+        font-size: 2.4vw !important;
+        line-height: 2.7vw !important;
+    }
+
     .card-container {
         height: 200px !important;
     }
@@ -878,6 +901,7 @@ a.sidr-class-toggle-sidr-close:before {
     .accordion-inner a {
         font-size: 2.5vw;
     }
+
     .home-block {
         margin-top: 5px;
     }
@@ -919,10 +943,14 @@ a.sidr-class-toggle-sidr-close:before {
     #layerslider_1 .ls-l {
         margin-right: 20%;
     }
+    .sitemap-class{
+        zoom:50%;
+    }
 }
+
 /*@media (min-width: 769px) and (max-width: 991px) {*/
-    /*p {*/
-        /*font-size: 2.2vw !important;*/
-    /*}*/
+/*p {*/
+/*font-size: 2.2vw !important;*/
+/*}*/
 /*}*/
 /* end of media queries */

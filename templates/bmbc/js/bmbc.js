@@ -1,3 +1,4 @@
+var marketHeight, marketingHeight;
 /**
  * Created by Roxana Zdurcea on 10/13/2016.
  */
@@ -54,41 +55,21 @@ jQuery(document).ready(function () {
     });
     // end of slick slider
 
-
-
-
     jQuery('#gruemenu').removeClass('pull-left');
 
-
-
 });
-
-
 
 
 // resize blocks
-function marketingHeight() {
+marketingHeight = function () {
     jQuery('.marketingHeight').css('min-height', jQuery('.marketing').height());
 }
-function marketHeight() {
+marketHeight = function () {
     jQuery('.marketHeight').css('min-height', jQuery('.market').height());
 }
-// onDocumentReady function bind
-jQuery(document).ready(function () {
-    marketingHeight();
-    marketHeight();
-});
+
 // onResize bind of the function
 jQuery(window).resize(function () {
-    marketingHeight();
-    marketHeight();
-});
-// end of resize blocks
-$( ".market" ).load(function() {
-    marketingHeight();
-    marketHeight();
-});
-$( ".marketing" ).load(function() {
     marketingHeight();
     marketHeight();
 });
